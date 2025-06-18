@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "MNS RP"
+  },
+  "server": {
+    "dataPath": "E:/my-server/txData/QBCore_531E61.base/"
+  }
+}

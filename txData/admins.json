@@ -1,0 +1,38 @@
+[
+  {
+    "$schema": 1,
+    "name": "Andra_Nih",
+    "master": true,
+    "password_hash": "$2a$11$MH3BxowhivGKs8o3ItaCEuBA8eLJv.8d6wS4FoaX1m/wG0kLTqGue",
+    "providers": {
+      "citizenfx": {
+        "id": "Andra_Nih",
+        "identifier": "fivem:17089281",
+        "data": {}
+      },
+      "discord": {
+        "id": "853450598762414091",
+        "identifier": "discord:853450598762414091",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "$schema": 1,
+    "name": "NaufalSyahandra",
+    "master": false,
+    "password_hash": "$2a$11$v5D6VR9iyH.vmefFDA5SkOEsDxWEE8SUx.Lf4Ew8iDIZrrpPh.QWe",
+    "password_temporary": true,
+    "providers": {
+      "discord": {
+        "id": "535081738402136085",
+        "identifier": "discord:535081738402136085",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

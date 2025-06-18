@@ -1,0 +1,37 @@
+services:
+  mariadb:
+    image: mariadb:10.11
+    container_name: mariadb-fivem
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: Gembirasekali_55
+      MYSQL_DATABASE: Fivem-db
+      MYSQL_USER: qbcore
+      MYSQL_PASSWORD: qbcore_password
+      MARIADB_AUTO_UPGRADE: 1
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./docker/db_init:/docker-entrypoint-initdb.d:ro
+    ports:
+      - "3307:3306"
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      timeout: 20s
+      retries: 10
+      interval: 10s
+      start_period: 30s
+    networks:
+      - fivem-network
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --innodb-buffer-pool-size=256M
+
+volumes:
+  mariadb_data:
+    driver: local
+
+networks:
+  fivem-network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16

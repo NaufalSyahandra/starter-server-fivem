@@ -1,0 +1,62 @@
+# Server Information
+sv_hostname "Your FiveM Server Name"
+sv_maxclients 48
+sv_endpointprivacy true
+
+# Server Description
+sets tags "qbcore,roleplay,economy"
+sets banner_detail "Your server banner URL"
+sets banner_connecting "Your connecting banner URL"
+
+# Discord Integration
+set discord_webhook "your_discord_webhook_here"
+set steam_webApiKey "your_steam_api_key_here"
+
+# Database Configuration
+set mysql_connection_string "mysql://username:password@localhost/database_name?charset=utf8mb4"
+
+# Voice config
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+setr voice_defaultCycle "GRAVE"
+setr voice_defaultVolume 0.3
+setr voice_enableRadioAnim 1
+setr voice_syncData 1
+
+# QBCore locale config
+setr qb_locale "en"
+
+# QBCore UseTarget
+setr UseTarget false
+
+# These resources will start by default.
+ensure mapmanager
+ensure chat
+ensure spawnmanager
+ensure sessionmanager
+ensure basic-gamemode
+ensure hardcap
+ensure baseevents
+
+# QBCore & Extra stuff
+ensure qb-core
+ensure [qb]
+ensure [standalone]
+ensure [voice]
+ensure [defaultmaps]
+
+## Permissions ##
+add_ace group.admin command allow # allow all commands
+add_principal identifier.fivem:1234455 group.admin #Name
+add_principal identifier.discord:81381382402402 group.admin #Name
+
+# Resources
+add_ace resource.qb-core command allow # Allow qb-core to execute commands
+
+# Gods
+add_ace qbcore.god command allow # Allow all commands
+
+# Inheritance
+add_principal qbcore.god group.admin # Allow gods access to the main admin group used to get all default permissions
+add_principal qbcore.god qbcore.admin # Allow gods access to admin commands
+add_principal qbcore.admin qbcore.mod # Allow admins access to mod commands

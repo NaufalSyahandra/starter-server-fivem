@@ -1,0 +1,10 @@
+# IDE
+.idea/
+
+# FiveM/QBCore specific
+txData/default/data/
+txData/default/logs/
+txData/QBCore_531E61.base/cache/
+txData/QBCore_531E61.base/server.cfg
+
+stater-MNS/
