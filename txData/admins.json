@@ -20,10 +20,9 @@
   },
   {
     "$schema": 1,
-    "name": "NaufalSyahandra",
+    "name": "naufalsyahandra",
     "master": false,
-    "password_hash": "$2a$11$v5D6VR9iyH.vmefFDA5SkOEsDxWEE8SUx.Lf4Ew8iDIZrrpPh.QWe",
-    "password_temporary": true,
+    "password_hash": "$2a$11$AYIrtHj/PBnNY4inkkWgyubII7p4bucaa5ctIp2GzfRPCOOQT4Jgm",
     "providers": {
       "discord": {
         "id": "535081738402136085",

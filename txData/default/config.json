@@ -5,5 +5,234 @@
   },
   "server": {
     "dataPath": "E:/my-server/txData/QBCore_531E61.base/"
+  },
+  "banlist": {
+    "templates": [
+      {
+        "id": "PyTCgwNbGDOLj8JWphXSw",
+        "reason": "Fail RP - Melakukan roleplay yang tidak sesuai dengan karakter/situasi",
+        "duration": {
+          "value": 2,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "iqj9IMLfCWUmWxA6WZv94",
+        "reason": "Spam Chat - Mengirim pesan berulang-ulang di chat",
+        "duration": {
+          "value": 2,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "PrpRCY2mfiKlynUi1TQiB",
+        "reason": "Incorrect Usage of /me - Penggunaan command /me yang salah",
+        "duration": {
+          "value": 2,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "RoYTwdXx8lts25lCz4tDb",
+        "reason": "Minor Toxic Behavior - Perilaku toxic ringan",
+        "duration": {
+          "value": 2,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "njDrCFmQagmhQ3MznOqyo",
+        "reason": "Metagaming - Menggunakan informasi OOC untuk kepentingan IC",
+        "duration": {
+          "value": 8,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "V6J3B8SX2otOJMJbC7uvc",
+        "reason": "Powergaming - Memaksa roleplay tanpa memberikan kesempatan respond",
+        "duration": {
+          "value": 8,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "b2hPA1L0KQ35AFTcs0yQj",
+        "reason": "NITRP - No Intent to Roleplay, tidak ada niat untuk bermain roleplay",
+        "duration": {
+          "value": 8,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "FGsx3X7vq1V9YY1TUfMCl",
+        "reason": "Breaking Character - Keluar dari karakter saat roleplay",
+        "duration": {
+          "value": 8,
+          "unit": "hours"
+        }
+      },
+      {
+        "id": "tqs5ELZsUgsdrEkLAwb2f",
+        "reason": "RDM - Random Death Match, membunuh tanpa alasan roleplay yang jelas",
+        "duration": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "wM4O55TiqwBUwq6uMTtVq",
+        "reason": "VDM - Vehicle Death Match, menabrak pemain dengan kendaraan tanpa alasan",
+        "duration": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "dtbR2icjlap1eGk4phmdH",
+        "reason": "Combat Logging - Keluar dari server saat sedang dalam situasi roleplay/combat",
+        "duration": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "g2RKJ5Ya4kIvf90e0pDKW",
+        "reason": "Fail Driving - Berkendara tidak realistis (terbang, speed demon, dll)",
+        "duration": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "c7eiXQeuyGVUiMqu3XpkP",
+        "reason": "OOC in IC - Berbicara Out of Character saat In Character",
+        "duration": {
+          "value": 1,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "Ax6xBdjaTdIagOxXfpMl2",
+        "reason": "Exploiting - Menggunakan bug/glitch untuk keuntungan pribadi",
+        "duration": {
+          "value": 2,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "uAjcLGnByjv1f4cnsOsnk",
+        "reason": "Scamming - Menipu pemain lain dalam transaksi",
+        "duration": {
+          "value": 2,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "K4lNAXUmz2xLYeMwgrKL4",
+        "reason": "Staff Disrespect - Tidak menghormati atau melawan staff server",
+        "duration": {
+          "value": 2,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "J1cAHepGLZ8dzeyASSIeg",
+        "reason": "Job Abuse - Menyalahgunakan pekerjaan (police, ems, mechanic, dll)",
+        "duration": {
+          "value": 2,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "bFqswPiS9ewW9iH9hOoNJ",
+        "reason": "Mass RDM - Membunuh banyak pemain tanpa alasan roleplay",
+        "duration": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "v6d0w4GCnIYRJORT4GnWF",
+        "reason": "Cheating/Hacking - Menggunakan cheat, mod menu, atau hack",
+        "duration": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "Owo6YlIyAev9JyT1lCURQ",
+        "reason": "Multiple Accounts - Menggunakan lebih dari satu akun",
+        "duration": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "ywesGzpqdWcwnBD2jMTyv",
+        "reason": "Ban Evading - Mencoba masuk server saat sedang di-ban",
+        "duration": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "q53AhmCanEdAE8I4x93nq",
+        "reason": "Real Money Trading - Jual beli in-game items dengan uang asli",
+        "duration": {
+          "value": 1,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "sBUt7lBZ4fAtG3MKf25XD",
+        "reason": "Repeated Offenses - Pelanggaran berulang setelah beberapa kali di-ban",
+        "duration": {
+          "value": 2,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "gjCMRCjC76I8jJyWrbXC9",
+        "reason": "Economy Exploit - Mengeksploit sistem ekonomi secara masif",
+        "duration": {
+          "value": 2,
+          "unit": "weeks"
+        }
+      },
+      {
+        "id": "tGszZMikKPB51OFjV9OSI",
+        "reason": "Threatening Staff/Players - Mengancam staff atau pemain lain",
+        "duration": {
+          "value": 2,
+          "unit": "days"
+        }
+      },
+      {
+        "id": "sWdP5wTyHgxkeXzKFINYh",
+        "reason": "Doxxing - Menyebarkan informasi pribadi pemain lain",
+        "duration": "permanent"
+      },
+      {
+        "id": "9hlQZkzaLCCjnmANvJ1vv",
+        "reason": "Racism/Hate Speech - Ucapan rasis atau kebencian",
+        "duration": "permanent"
+      },
+      {
+        "id": "8ngJlCKl82XS8Z5YiLDkt",
+        "reason": "Sexual Harassment - Pelecehan seksual",
+        "duration": "permanent"
+      },
+      {
+        "id": "We1nXLdeRgVkYh0vTS8iu",
+        "reason": "Advertising Other Servers - Mempromosikan server lain",
+        "duration": "permanent"
+      },
+      {
+        "id": "8MdgwxaYeiVGnSllCGwAt",
+        "reason": "DDOS Threats - Ancaman serangan cyber",
+        "duration": "permanent"
+      }
+    ]
   }
 }
